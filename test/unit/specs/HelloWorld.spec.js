@@ -11,7 +11,7 @@ describe('HelloWorld.vue', () => {
   it('should show all the links', () => {
     const Constructor = Vue.extend(HelloWorld)
     const vm = new Constructor().$mount()
-    expect(vm.$el.querySelector('.hello a').length)
+    expect(vm.$el.querySelectorAll('.hello a').length)
       .to.equal(9)
   })
 })
