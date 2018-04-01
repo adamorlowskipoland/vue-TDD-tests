@@ -27,4 +27,14 @@ npm test
 You can use and I suggest using yarn
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+All the credits goes to:
+
+
+
+"The first step in writing any test is always figuring out what we want to test. This is also the hardest thing to do and the part that’s most open to interpretation.
+ 
+ There are many different strategies out there. I find that a good practice is to take a moment to think about what a given component should be doing and then write a test to verify it. I typically don’t worry about “unit” testing every method or property. Instead, I focus on testing the behavior I expect from the component."
+
+
+More about this:
+https://medium.com/js-dojo/getting-started-with-tdd-and-vue-js-93d419c4a19e
